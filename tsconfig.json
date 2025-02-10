@@ -12,7 +12,10 @@
     "skipLibCheck": true,
     "isolatedModules": true,
     "esModuleInterop": true,
+    "sourceMap": true,
     "experimentalDecorators": true,
+    "emitDecoratorMetadata": false, // Permite dar un mejor performance, seguridad al no exponer inpformacion de tipo de los objetos
+    "useDefineForClassFields": true, // Es algo predelicto
     "moduleResolution": "bundler",
     "importHelpers": true,
     "target": "ES2022",
