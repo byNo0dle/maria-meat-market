@@ -8,6 +8,7 @@
       "schematics": {
         "@schematics/angular:component": {
           "style": "scss",
+          "skipTests": true,
           "changeDetection": "OnPush"
         }
       },
@@ -104,5 +105,8 @@
         }
       }
     }
+  },
+  "cli": {
+    "analytics": "a1ac8f3b-437b-41bb-8922-d9d7e05e9c66"
   }
 }
